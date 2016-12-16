@@ -1,0 +1,7 @@
+if not exist "C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\PicklesResults" mkdir "C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\PicklesResults"
+
+if not exist "C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\PicklesResults\AgileTourTaipei2016" mkdir "C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\PicklesResults\AgileTourTaipei2016"
+
+cd C:\Users\JamisLiao\JenkinsTool\pickles\tools
+
+pickles.exe run --feature-directory="C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\src\AgileTourTaipei2016\AgileTourTaipei2016" --output-directory="C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\PicklesResults\AgileTourTaipei2016" --documentation-format="dhtml" --test-results-format=mstest --link-results-file="C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\TestResults\AgileTourTaipei2016.trx"

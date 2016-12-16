@@ -1,0 +1,12 @@
+if not exist "C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\TestResults" mkdir "C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\TestResults"
+
+if not exist "C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\SpecflowResults" mkdir "C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\SpecflowResults"
+
+if Exist "C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\TestResults\AgileTourTaipei2016.trx" del "C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\TestResults\AgileTourTaipei2016.trx"
+
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\MSTest.exe" /testcontainer:"C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\src\AgileTourTaipei2016\AgileTourTaipei2016\bin\debug\AgileTourTaipei2016.dll" /resultsfile:"C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\TestResults\AgileTourTaipei2016.trx" 
+
+set "testResult=%errorlevel%"
+
+if errorlevel 0 exit /b %errorlevel% 
+exit /b 0

@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016_OriCommand\src\AgileTourTaipei2016\packages\Specflow.2.1.0\tools\specflow.exe" generateAll "C:\Program Files (x86)\Jenkins\workspace\AgileTourTaipei2016\src\AgileTourTaipei2016\AgileTourTaipei2016\AgileTourTaipei2016.csproj" /force /verbose
