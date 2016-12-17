@@ -1,2 +1,2 @@
 ﻿#error (28:1): Feature file already contains a scenario with name '購買一件商品，家電類，結帳金額超過送折價券門檻，送600折價券'
-#error (77:1): Feature file already contains a scenario with name '購買兩件商品，服飾類，使用折價券，結帳金額超過送折價券門檻，送500折價券'
+#error (70:1): Feature file already contains a scenario with name '購買兩件商品，服飾類，使用折價券，結帳金額超過送折價券門檻，送500折價券'
