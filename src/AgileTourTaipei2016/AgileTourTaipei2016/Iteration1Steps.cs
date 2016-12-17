@@ -62,6 +62,17 @@ namespace AgileTourTaipei2016
         {
         }
 
+        [Given(@"一台 電視 原價 (.*)")]
+        public void Given一台電視原價(int p0)
+        {
+        }
+
+        [Given(@"使用Coupon Code")]
+        public void Given使用CouponCode()
+        {
+        }
+
+
         [Then(@"不需送折價券")]
         public void Then不需送折價券()
         {
