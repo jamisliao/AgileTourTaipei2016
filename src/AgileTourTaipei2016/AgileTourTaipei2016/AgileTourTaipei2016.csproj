@@ -59,11 +59,6 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Iteration1Steps.cs" />
-    <Compile Include="Iteration2.feature.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Iteration2.feature</DependentUpon>
-    </Compile>
     <Compile Include="Iterationn1.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -73,10 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Iteration2.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>Iteration2.feature.cs</LastGenOutput>
-    </None>
     <None Include="Iterationn1.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Iterationn1.feature.cs</LastGenOutput>

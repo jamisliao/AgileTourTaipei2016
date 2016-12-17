@@ -78,7 +78,7 @@ namespace AgileTourTaipei2016
 #line 5
 this.ScenarioSetup(scenarioInfo);
 #line 6
- testRunner.Given("一件 衣服 原價 2500 折扣完後價格為 2000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("一件 衣服 原價 2500 折扣完後價格為 900", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 7
  testRunner.When("當結帳完成後", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 8
@@ -108,11 +108,11 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買三件商品，服飾類，結帳金額超過送折價券門檻，送1000折價券")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買三件商品，服飾類，結帳金額超過送折價券門檻，送1100折價券")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Iteration1")]
-        public virtual void 購買三件商品服飾類結帳金額超過送折價券門檻送1000折價券()
+        public virtual void 購買三件商品服飾類結帳金額超過送折價券門檻送1100折價券()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買三件商品，服飾類，結帳金額超過送折價券門檻，送1000折價券", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買三件商品，服飾類，結帳金額超過送折價券門檻，送1100折價券", ((string[])(null)));
 #line 16
 this.ScenarioSetup(scenarioInfo);
 #line 17
@@ -124,17 +124,17 @@ this.ScenarioSetup(scenarioInfo);
 #line 20
  testRunner.When("當結帳完成後", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 21
- testRunner.Then("需要送 1000元折價券", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("需要送 1100元折價券", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買一件商品，家電類，結帳金額超過送折價券門檻，送500折價券")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買一件商品，家電類，結帳金額超過送折價券門檻，送600折價券")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Iteration1")]
-        public virtual void 購買一件商品家電類結帳金額超過送折價券門檻送500折價券()
+        public virtual void 購買一件商品家電類結帳金額超過送折價券門檻送600折價券()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買一件商品，家電類，結帳金額超過送折價券門檻，送500折價券", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買一件商品，家電類，結帳金額超過送折價券門檻，送600折價券", ((string[])(null)));
 #line 23
 this.ScenarioSetup(scenarioInfo);
 #line 24
@@ -142,7 +142,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 25
  testRunner.When("當結帳完成後", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 26
- testRunner.Then("需要送 500元折價券", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("需要送 600元折價券", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -156,7 +156,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 28
 this.ScenarioSetup(scenarioInfo);
 #line 29
- testRunner.Given("一台 電熱水瓶 原價 8000 折扣完後價格為 5600", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("一台 電熱水瓶 原價 8000 折扣完後價格為 4000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 30
  testRunner.When("當結帳完成後", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 31
@@ -174,7 +174,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 33
 this.ScenarioSetup(scenarioInfo);
 #line 34
- testRunner.Given("一台 吸塵器 原價 26000 折扣完後價格為 20000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("一台 吸塵器 原價 26000 折扣完後價格為 25000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 35
  testRunner.When("當結帳完成後", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 36
@@ -194,9 +194,9 @@ this.ScenarioSetup(scenarioInfo);
 #line 39
  testRunner.Given("一件 衣服 原價 2500 折扣完後價格為 2000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 40
- testRunner.Given("一件 褲子 原價 4000 折扣完後價格為 3200", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("一件 褲子 原價 4000 折扣完後價格為 2200", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 41
- testRunner.Given("一台 電視 原價 20000 折扣完後價格為 17000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("一台 電視 原價 20000 折扣完後價格為 16000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 42
  testRunner.When("當結帳完成後", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 43
@@ -228,57 +228,57 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買一件商品，精品類，結帳金額超過送折價券門檻，送600折價券")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買一件商品，精品類，結帳金額超過送折價券門檻，送500折價券")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Iteration1")]
-        public virtual void 購買一件商品精品類結帳金額超過送折價券門檻送600折價券()
+        public virtual void 購買一件商品精品類結帳金額超過送折價券門檻送500折價券()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買一件商品，精品類，結帳金額超過送折價券門檻，送600折價券", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買一件商品，精品類，結帳金額超過送折價券門檻，送500折價券", ((string[])(null)));
 #line 52
 this.ScenarioSetup(scenarioInfo);
 #line 53
- testRunner.Given("一個 Gucci 精品包包 原價 40000 折扣完後價格為 35000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("一個 Gucci 精品包包 原價 40000 折扣完後價格為 11000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 54
  testRunner.When("當結帳完成後", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 55
- testRunner.Then("需要送 600元折價券", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("需要送 500元折價券", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買兩件商品，包含精品類與未參加活動專櫃，結帳金額超過送折價券門檻，送600折價券")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買兩件商品，包含精品類與未參加活動專櫃，結帳金額超過送折價券門檻，送500折價券")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Iteration1")]
-        public virtual void 購買兩件商品包含精品類與未參加活動專櫃結帳金額超過送折價券門檻送600折價券()
+        public virtual void 購買兩件商品包含精品類與未參加活動專櫃結帳金額超過送折價券門檻送500折價券()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買兩件商品，包含精品類與未參加活動專櫃，結帳金額超過送折價券門檻，送600折價券", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買兩件商品，包含精品類與未參加活動專櫃，結帳金額超過送折價券門檻，送500折價券", ((string[])(null)));
 #line 57
 this.ScenarioSetup(scenarioInfo);
 #line 58
- testRunner.Given("一個 Gucci 精品包包 原價 40000 折扣完後價格為 35000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("一個 Gucci 精品包包 原價 40000 折扣完後價格為 11000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 59
  testRunner.Given("一個 LV 精品包包 原價 50000 折扣完後價格為 46000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 60
  testRunner.When("當結帳完成後", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 61
- testRunner.Then("需要送 600元折價券", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("需要送 500元折價券", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買兩件商品，服飾類，使用折價券，結帳金額未達送折價券門檻")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買兩件商品，服飾類，使用Coupon，結帳金額未達送折價券門檻")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Iteration1")]
-        public virtual void 購買兩件商品服飾類使用折價券結帳金額未達送折價券門檻()
+        public virtual void 購買兩件商品服飾類使用Coupon結帳金額未達送折價券門檻()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買兩件商品，服飾類，使用折價券，結帳金額未達送折價券門檻", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買兩件商品，服飾類，使用Coupon，結帳金額未達送折價券門檻", ((string[])(null)));
 #line 63
 this.ScenarioSetup(scenarioInfo);
 #line 64
- testRunner.Given("一件 衣服 原價 2500 折扣完後價格為 2000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("一件 衣服 原價 500", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 65
- testRunner.Given("一件 褲子 原價 4000 折扣完後價格為 3200", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("一件 褲子 原價 400", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 66
- testRunner.Given("使用折價券 折抵 500", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("使用Coupon", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 67
  testRunner.When("當結帳完成後", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 68
@@ -288,22 +288,70 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買兩件商品，服飾類，使用折價券，結帳金額超過送折價券門檻，送500折價券")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買兩件商品，服飾類，使用Coupon，結帳金額超過送折價券門檻，送500折價券")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Iteration1")]
-        public virtual void 購買兩件商品服飾類使用折價券結帳金額超過送折價券門檻送500折價券()
+        public virtual void 購買兩件商品服飾類使用Coupon結帳金額超過送折價券門檻送500折價券()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買兩件商品，服飾類，使用折價券，結帳金額超過送折價券門檻，送500折價券", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買兩件商品，服飾類，使用Coupon，結帳金額超過送折價券門檻，送500折價券", ((string[])(null)));
 #line 70
 this.ScenarioSetup(scenarioInfo);
 #line 71
- testRunner.Given("一件 衣服 原價 3000 折扣完後價格為 2700", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("一件 衣服 原價 3000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 72
- testRunner.Given("一件 褲子 原價 4000 折扣完後價格為 3200", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("一件 褲子 原價 2600", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 73
- testRunner.Given("使用折價券 折抵 500", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("使用Coupon", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 74
  testRunner.When("當結帳完成後", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 75
+ testRunner.Then("需要送 500元折價券", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買兩件商品，服飾類，使用Coupon，使用折價卷200，結帳金額未達送折價券門檻")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Iteration1")]
+        public virtual void 購買兩件商品服飾類使用Coupon使用折價卷200結帳金額未達送折價券門檻()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買兩件商品，服飾類，使用Coupon，使用折價卷200，結帳金額未達送折價券門檻", ((string[])(null)));
+#line 77
+this.ScenarioSetup(scenarioInfo);
+#line 78
+ testRunner.Given("一件 衣服 原價 500", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 79
+ testRunner.Given("一件 褲子 原價 400", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 80
+ testRunner.Given("使用Coupon", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 81
+ testRunner.Given("使用折價卷200", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 82
+ testRunner.When("當結帳完成後", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 83
+ testRunner.Then("不需送折價券", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("購買兩件商品，服飾類，使用Coupon，使用折價卷200，結帳金額超過送折價券門檻，送500折價券")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Iteration1")]
+        public virtual void 購買兩件商品服飾類使用Coupon使用折價卷200結帳金額超過送折價券門檻送500折價券()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("購買兩件商品，服飾類，使用Coupon，使用折價卷200，結帳金額超過送折價券門檻，送500折價券", ((string[])(null)));
+#line 85
+this.ScenarioSetup(scenarioInfo);
+#line 86
+ testRunner.Given("一件 衣服 原價 3000", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 87
+ testRunner.Given("一件 褲子 原價 2600", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 88
+ testRunner.Given("使用Coupon", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 89
+ testRunner.Given("使用折價卷200", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 90
+ testRunner.When("當結帳完成後", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 91
  testRunner.Then("需要送 500元折價券", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
